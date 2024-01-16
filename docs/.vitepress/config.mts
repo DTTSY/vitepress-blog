@@ -8,6 +8,7 @@ import { blogTheme } from './blog-theme'
 export default defineConfig({
   // 继承博客主题(@sugarat/theme)
   extends: blogTheme,
+  base: '/vitepress-blog/',
   lang: 'zh-cn',
   title: '@Ernest',
   description: 'Ernest的博客',
